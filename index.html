@@ -158,7 +158,7 @@
   .slots { display: grid; gap: 10px; }
   .slot {
     display: grid;
-    grid-template-columns: 30px 1fr;
+    grid-template-columns: 86px 1fr;
     gap: 14px;
     align-items: center;
     padding: 11px 14px;
@@ -168,7 +168,7 @@
   }
   .key {
     display: grid; place-items: center;
-    height: 30px;
+    height: 30px; padding: 0 6px; white-space: nowrap;
     border: 1px solid var(--line);
     border-radius: 6px;
     font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
@@ -238,6 +238,21 @@
         <div class="row maprow"><span class="cmd">Hand Hearts</span><span class="desc">รถตำนาน Lv4 ทั้งตา</span></div>
       </div>
       <p class="gnote">ชุดที่แนะนำ · สตรีมเมอร์แต่ละคนเปลี่ยนของขวัญเองได้ในแอพ</p>
+    </section>
+
+    <section class="extra">
+      <h2>คีย์ลัดในเกม (สำหรับสตรีมเมอร์)</h2>
+      <div class="slots">
+        <div class="slot"><span class="key">F</span><p>กล้องตามรถ / ปล่อยกล้อง</p></div>
+        <div class="slot"><span class="key">C</span><p>เปลี่ยนมุมกล้อง</p></div>
+        <div class="slot"><span class="key">1–9</span><p>กล้องตามรถอันดับ 1–9 · 0 = อันดับ 10</p></div>
+        <div class="slot"><span class="key">G</span><p>จอมุม: ดูผู้นำ</p></div>
+        <div class="slot"><span class="key">H</span><p>จอมุม: ดูคันท้าย</p></div>
+        <div class="slot"><span class="key">J</span><p>จอมุม: ดูกลางกลุ่ม</p></div>
+        <div class="slot"><span class="key">Tab</span><p>กดค้าง = ดูอันดับทุกคัน</p></div>
+        <div class="slot"><span class="key">Shift ขวา</span><p>กด = เปิด/ปิดโหมดจัดตำแหน่ง UI · ลากด้วยคลิกขวา</p></div>
+      </div>
+      <p class="gnote">เปลี่ยนปุ่มได้ที่ Esc → ปุ่มลัด</p>
     </section>
 
     <section class="extra">
